@@ -1,4 +1,16 @@
-<img width="100%" alt="STABL" src="./front_page.png">
+# Exploring the STABL framework with non-linear tree-based models (Geometric Data Analysis, MVA 2024-2025)
+
+In this group project, we explore the STABL framework (see paragraphs below for complete details). It is a feature selection method that identifies a sparse, reliable set of biomarkers in high-dimensional omic data.
+One of its limitations, as originally proposed, is its reliance on linear models for feature selection. This reliance assumes linear relationships between the omic features and the outcome, which may not capture the complex, nonlinear interactions that are often present in biological data.
+To address this limitation, we propose replacing the linear base models with tree-based models, such as XGBoost or Random Forest. These models are capable of capturing nonlinear relationships by learning complex interactions between features without requiring explicit specification of those interactions.
+
+The notebook "Examples Forest.ipynb" shows how STABL can be used in practice with Random Forest and XGBoost thanks to our adaptation.
+
+In "Sample Data", the folders "Linear Synthetic Data", "Toroidal Wave Data" and "Multidimensional Rippling Hyper-Shell" contain three datasets used for our benchmarks and designed for the purpose of this study.
+
+The files "Binary_{DatasetName}.py" and "Regression_{DatasetName}.py" perform that compares Lasso and ElasticNet (from the original paper) with Random Forest and XGBoost, used in combination with STABL or without it ({DatasetName}=one of the three datasets presented earlier). The results are stored in the folder "FINAL Benchmark Results".
+
+Finally, our study and analysis are presented in report.pdf
 
 # Discovery of sparse, reliable omic biomarkers with Stabl
 [![DOI](https://img.shields.io/badge/DOI-doi:10.1038/s41587--023--02033--x-blue.svg)](https://doi.org/10.1038/s41587-023-02033-x)
