@@ -8,7 +8,7 @@ The notebook "Examples Forest.ipynb" shows how STABL can be used in practice wit
 
 In "Sample Data", the folders "Linear Synthetic Data", "Toroidal Wave Data" and "Multidimensional Rippling Hyper-Shell" contain three datasets used for our benchmarks and designed for the purpose of this study.
 
-The files "Binary_{DatasetName}.py" and "Regression_{DatasetName}.py" perform that compares Lasso and ElasticNet (from the original paper) with Random Forest and XGBoost, used in combination with STABL or without it ({DatasetName}=one of the three datasets presented earlier). The results are stored in the folder "FINAL Benchmark Results".
+The files "Binary_{DatasetName}.py" and "Regression_{DatasetName}.py" perform the comparison of Lasso and ElasticNet (from the original paper) with Random Forest and XGBoost, used in combination with STABL or without it. {DatasetName}=one of the three datasets presented earlier. The results are stored in the folder "FINAL Benchmark Results".
 
 Finally, our study and analysis are presented in report.pdf
 
