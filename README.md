@@ -10,7 +10,7 @@ In "Sample Data", the folders "Linear Synthetic Data", "Toroidal Wave Data" and 
 
 The files "Binary_{DatasetName}.py" and "Regression_{DatasetName}.py" perform the comparison of Lasso and ElasticNet (from the original paper) with Random Forest and XGBoost, used in combination with STABL or without it. {DatasetName}=one of the three datasets presented earlier. The results are stored in the folder "FINAL Benchmark Results".
 
-Finally, our study and analysis are presented in report.pdf
+Finally, our study and analysis are presented in "Report/report.pdf"
 
 # Discovery of sparse, reliable omic biomarkers with Stabl
 [![DOI](https://img.shields.io/badge/DOI-doi:10.1038/s41587--023--02033--x-blue.svg)](https://doi.org/10.1038/s41587-023-02033-x)
